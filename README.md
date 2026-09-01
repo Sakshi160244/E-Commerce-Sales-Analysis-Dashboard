@@ -1,50 +1,96 @@
-# E-Commerce Sales Analysis Dashboard
+#  E-Commerce Sales Analysis Dashboard
 
-## Project Overview
+##  Project Overview
 
-This project is an interactive **E-Commerce Sales Analysis Dashboard** built using **Python, Pandas, NumPy, Matplotlib, and Streamlit**.
+The **E-Commerce Sales Analysis Dashboard** is an interactive data analytics project built using **Python, Pandas, NumPy, Matplotlib, and Streamlit**.
 
-The dashboard analyzes e-commerce sales data from CSV files and provides insights into customers, products, orders, payments, KPIs, and overall business performance.
+The project analyzes e-commerce sales data and provides insights into **sales performance, customers, products, orders, payments, KPIs, and business trends**.
 
-The project was initially developed using MySQL, and the final dashboard version uses CSV files so it can be easily deployed on Streamlit Cloud.
+The project was initially developed using a **MySQL database**. For deployment, the final Streamlit dashboard uses **CSV files**, making the application easier to deploy and access online.
 
-## Features
+---
+
+##  Dashboard Preview
+
+###  Dashboard Overview
+
+The main dashboard displays important business KPIs such as Total Revenue, Total Orders, Total Customers, Average Order Value, Total Products, Cancellation Rate, and Return Rate.
+
+![Dashboard Overview](dashboard-overview.png)
+
+###  Customer Analysis
+
+Customer analysis identifies top customers, repeat customers, customer spending, customer segments, and demographic-based revenue performance.
+
+![Customer Analysis](customer-analysis.png)
+
+###  Top Products Analysis
+
+Product analysis helps identify the best-performing products based on sales quantity and revenue.
+
+![Top Products](top-products.png)
+
+###  Monthly Revenue Trend
+
+The monthly revenue visualization helps understand changes in sales performance across different months.
+
+![Monthly Revenue](monthly-revenue.png)
+
+###  KPI Analysis
+
+The KPI dashboard summarizes the most important business performance indicators.
+
+![KPI Analysis](kpi-analysis.png)
+
+---
+
+##  Dashboard Features
 
 - Interactive Streamlit Dashboard
 - Exploratory Data Analysis (EDA)
-- Customer Analysis
+- Customer Spending Analysis
+- Customer Segmentation
+- Repeat Customer Analysis
 - Gender-wise Analysis
 - Age Group Analysis
 - State-wise Analysis
-- Product Analysis
-- Category Analysis
+- Product & Category Analysis
 - Order Status Analysis
 - Discount Analysis
 - Payment Method Analysis
 - KPI Analysis
+- Interactive Data Visualizations
 - Business Insights
-- Interactive Charts and Visualizations
 
-## Key KPIs
+---
 
-- Total Orders: 100
-- Total Customers: 30
-- Total Products: 19
-- Total Revenue: ₹1,098,049.90
-- Average Order Value: ₹22,876.04
-- Cancellation Rate: 15%
-- Return Rate: 15%
+##  Key KPIs
 
-## Technologies Used
+| KPI | Value |
+|---|---:|
+| Total Orders | 100 |
+| Total Customers | 30 |
+| Total Products | 19 |
+| Total Revenue | ₹1,098,049.90 |
+| Average Order Value | ₹22,876.04 |
+| Cancellation Rate | 15.00% |
+| Return Rate | 15.00% |
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Streamlit
-- CSV
+---
 
-## Project Structure
+##  Technologies Used
+
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Streamlit**
+- **CSV**
+- **MySQL** — used during the original project development
+
+---
+
+## 📁 Project Structure
 
 ```text
 E-Commerce-Sales-Analysis-Dashboard/
@@ -52,6 +98,7 @@ E-Commerce-Sales-Analysis-Dashboard/
 ├── Sales_data_app.py
 ├── sales_data.csv
 ├── payments_summary.csv
+│
 ├── data_cleaning.py
 ├── eda.py
 ├── numpy_analysis.py
@@ -61,15 +108,24 @@ E-Commerce-Sales-Analysis-Dashboard/
 ├── kpi_analysis.py
 ├── visualization.py
 ├── business_insights.py
+│
 ├── requirements.txt
-└── README.md
+├── README.md
+│
+├── dashboard-overview.png
+├── customer-analysis.png
+├── top-products.png
+├── monthly-revenue.png
+└── kpi-analysis.png
 ```
 
-## Dashboard Sections
+---
 
-### Dashboard
+##  Dashboard Sections
 
-Displays important business KPIs including:
+### 1. Dashboard
+
+Provides a quick overview of important business metrics including:
 
 - Total Revenue
 - Total Orders
@@ -79,7 +135,7 @@ Displays important business KPIs including:
 - Cancellation Rate
 - Return Rate
 
-### Exploratory Data Analysis
+### 2. Exploratory Data Analysis
 
 Provides:
 
@@ -89,28 +145,30 @@ Provides:
 - Missing Values
 - Order Status Distribution
 
-### Customer Analysis
+### 3. Customer Analysis
 
 Analyzes:
 
 - Customer Spending
+- Top Customer
+- Customer Segmentation
 - Repeat Customers
 - Repeat Customer Rate
 - Gender-wise Revenue
 - Age Group Revenue
 - State-wise Revenue
 
-### Product Analysis
+### 4. Product Analysis
 
 Analyzes:
 
 - Category Performance
 - Top Category
-- Top Selling Product
-- Top Revenue Product
-- Product Quantity
+- Top Selling Products
+- Top Revenue Products
+- Product Sales Quantity
 
-### Order Analysis
+### 5. Order Analysis
 
 Analyzes:
 
@@ -118,18 +176,19 @@ Analyzes:
 - Average Discount
 - Maximum Discount
 - Minimum Discount
+- Discount Performance
 
-### Payment Analysis
+### 6. Payment Analysis
 
-Displays payment method distribution using payment data stored in CSV format.
+Analyzes payment method distribution using payment data stored in CSV format.
 
-### KPI Analysis
+### 7. KPI Analysis
 
-Displays important business KPIs in an easy-to-understand dashboard format.
+Displays important business performance indicators in an easy-to-understand dashboard format.
 
-### Visualizations
+### 8. Visualizations
 
-Provides interactive visualizations for:
+Interactive visualizations include:
 
 - Monthly Revenue
 - Category Revenue
@@ -145,53 +204,98 @@ Provides interactive visualizations for:
 - State Revenue
 - Discount vs Revenue
 
-### Business Insights
+### 9. Business Insights
 
-Summarizes important findings from the e-commerce sales data.
+Summarizes the most important findings from the e-commerce sales data to support business decision-making.
 
-## Data Files
+---
 
-The dashboard uses the following CSV files:
+##  Key Business Insights
+
+- The dataset contains **100 total orders** from **30 customers**.
+- Total delivered-order revenue is approximately **₹1.10 million**.
+- Average Order Value is approximately **₹22.88K**.
+- **15 customers** were identified as repeat customers.
+- Repeat Customer Rate is **62.50%**.
+- Cancellation Rate is **15%**.
+- Return Rate is **15%**.
+- Customer, product, category, state, and order-level analysis helps identify key sales performance patterns.
+
+---
+
+##  Data Files
+
+The dashboard uses two CSV files:
 
 ```text
 sales_data.csv
 payments_summary.csv
 ```
 
-These files contain sales, customer, product, order, and payment-related data used for analysis.
+`sales_data.csv` contains sales, customer, product, and order-related information.
 
-## How to Run the Project
+`payments_summary.csv` contains payment method summary data.
 
-### 1. Install Required Libraries
+---
+
+##  How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone <https://github.com/Sakshi160244/E-Commerce-Sales-Analysis-Dashboard>
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd E-Commerce-Sales-Analysis-Dashboard
+```
+
+### 3. Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Streamlit App
+### 4. Run the Streamlit Dashboard
 
 ```bash
 https://sales-dasboard-bysakshi.streamlit.app/
 ```
 
-The dashboard will open automatically in your browser.
+The dashboard will open in your browser.
 
-## Project Objective
+---
 
-The objective of this project is to analyze e-commerce sales data and identify useful business insights such as:
+##  Requirements
 
-- Revenue Performance
-- Customer Purchasing Behavior
-- Top Performing Products
-- Best Performing Categories
-- Repeat Customer Behavior
-- Order Cancellation Trends
-- Order Return Trends
-- Payment Preferences
-- State-wise Sales Performance
+```text
+streamlit
+pandas
+numpy
+matplotlib
+```
 
-## Author
+---
 
-**Sakshi Panchal**
+##  Project Objective
 
+The main objective of this project is to transform raw e-commerce sales data into meaningful business insights and demonstrate practical skills in:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Manipulation
+- KPI Development
+- Customer Analysis
+- Product Analysis
+- Business Analysis
+- Data Visualization
+- Interactive Dashboard Development
+
+---
+
+##  Author
+
+**Sakshi Panchal**  
 Aspiring Data Analyst
