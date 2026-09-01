@@ -1,0 +1,101 @@
+order_id,customer_id,customer_name,gender,age,city,state,product_id,product_name,category,quantity,unit_price,discount,total_amount,order_status,order_date
+12,1,Aarav Sharma,Male,24,Delhi,Delhi,8,Formal Shoes,Footwear,3,3499.0,15.0,8922.45,Cancelled,2025-01-28
+44,1,Aarav Sharma,Male,24,Delhi,Delhi,12,Formal Shirt,Clothing,1,999.0,15.0,849.15,Delivered,2025-03-16
+46,1,Aarav Sharma,Male,24,Delhi,Delhi,6,Running Shoes,Footwear,2,2999.0,5.0,5698.1,Delivered,2025-04-04
+49,1,Aarav Sharma,Male,24,Delhi,Delhi,16,Face Wash,Beauty,3,399.0,5.0,1137.15,Delivered,2025-05-12
+3,2,Priya Verma,Female,29,Mumbai,Maharashtra,1,Wireless Mouse,Electronics,3,899.0,0.0,2697.0,Delivered,2025-07-29
+6,2,Priya Verma,Female,29,Mumbai,Maharashtra,10,Denim Jeans,Clothing,2,1499.0,5.0,2848.1,Delivered,2025-04-09
+20,2,Priya Verma,Female,29,Mumbai,Maharashtra,14,Electric Kettle,Home & Kitchen,3,1799.0,20.0,4317.6,Cancelled,2025-02-22
+41,2,Priya Verma,Female,29,Mumbai,Maharashtra,16,Face Wash,Beauty,5,399.0,15.0,1695.75,Cancelled,2025-04-17
+54,2,Priya Verma,Female,29,Mumbai,Maharashtra,14,Electric Kettle,Home & Kitchen,5,1799.0,10.0,8095.5,Delivered,2025-09-26
+43,3,Rohan Gupta,Male,32,Jaipur,Rajasthan,15,Non-Stick Cookware Set,Home & Kitchen,2,2999.0,5.0,5698.1,Delivered,2025-12-26
+71,3,Rohan Gupta,Male,32,Jaipur,Rajasthan,18,Perfume,Beauty,4,1599.0,20.0,5116.8,Delivered,2025-04-19
+34,4,Ananya Singh,Female,26,Bengaluru,Karnataka,20,Backpack,Accessories,2,1299.0,20.0,2078.4,Cancelled,2025-05-18
+39,4,Ananya Singh,Female,26,Bengaluru,Karnataka,3,Laptop,Electronics,5,55000.0,5.0,261250.0,Delivered,2025-12-01
+77,4,Ananya Singh,Female,26,Bengaluru,Karnataka,15,Non-Stick Cookware Set,Home & Kitchen,1,2999.0,5.0,2849.05,Pending,2025-12-22
+78,4,Ananya Singh,Female,26,Bengaluru,Karnataka,11,Hoodie,Clothing,2,1299.0,10.0,2338.2,Pending,2025-10-04
+85,4,Ananya Singh,Female,26,Bengaluru,Karnataka,9,Cotton T-Shirt,Clothing,4,599.0,0.0,2396.0,Pending,2025-07-12
+53,5,Vikram Kumar,Male,35,Chandigarh,Chandigarh,1,Wireless Mouse,Electronics,2,899.0,10.0,1618.2,Delivered,2025-08-03
+67,5,Vikram Kumar,Male,35,Chandigarh,Chandigarh,11,Hoodie,Clothing,4,1299.0,5.0,4936.2,Delivered,2025-01-13
+5,6,Neha Patel,Female,23,Ahmedabad,Gujarat,3,Laptop,Electronics,1,55000.0,20.0,44000.0,Returned,2025-01-19
+26,6,Neha Patel,Female,23,Ahmedabad,Gujarat,9,Cotton T-Shirt,Clothing,3,599.0,20.0,1437.6,Cancelled,2025-04-04
+76,6,Neha Patel,Female,23,Ahmedabad,Gujarat,20,Backpack,Accessories,1,1299.0,10.0,1169.1,Cancelled,2025-06-16
+81,6,Neha Patel,Female,23,Ahmedabad,Gujarat,13,Coffee Maker,Home & Kitchen,4,3499.0,20.0,11196.8,Pending,2025-11-22
+91,6,Neha Patel,Female,23,Ahmedabad,Gujarat,20,Backpack,Accessories,5,1299.0,15.0,5520.75,Returned,2025-07-23
+7,7,Rahul Mehta,Male,28,Pune,Maharashtra,17,Sunscreen,Beauty,3,699.0,15.0,1782.45,Delivered,2025-05-16
+40,7,Rahul Mehta,Male,28,Pune,Maharashtra,16,Face Wash,Beauty,2,399.0,15.0,678.3,Pending,2025-10-06
+21,8,Simran Kaur,Female,31,Amritsar,Punjab,19,Smart Watch,Accessories,1,3999.0,10.0,3599.1,Delivered,2025-01-26
+27,8,Simran Kaur,Female,31,Amritsar,Punjab,5,USB-C Cable,Electronics,4,499.0,20.0,1596.8,Delivered,2025-05-04
+52,8,Simran Kaur,Female,31,Amritsar,Punjab,12,Formal Shirt,Clothing,4,999.0,0.0,3996.0,Delivered,2025-08-25
+64,8,Simran Kaur,Female,31,Amritsar,Punjab,4,Smartphone,Electronics,1,28000.0,20.0,22400.0,Pending,2025-04-08
+17,9,Karan Malhotra,Male,27,Gurugram,Haryana,7,Casual Sneakers,Footwear,5,2499.0,10.0,11245.5,Delivered,2025-01-31
+25,9,Karan Malhotra,Male,27,Gurugram,Haryana,16,Face Wash,Beauty,5,399.0,0.0,1995.0,Returned,2025-10-05
+60,9,Karan Malhotra,Male,27,Gurugram,Haryana,1,Wireless Mouse,Electronics,1,899.0,0.0,899.0,Cancelled,2025-09-21
+65,10,Pooja Yadav,Female,30,Lucknow,Uttar Pradesh,1,Wireless Mouse,Electronics,2,899.0,5.0,1708.1,Returned,2025-06-09
+1,11,Aarav Sharma,Male,24,Delhi,Delhi,4,Smartphone,Electronics,3,28000.0,5.0,79800.0,Cancelled,2025-02-16
+37,11,Aarav Sharma,Male,24,Delhi,Delhi,20,Backpack,Accessories,5,1299.0,15.0,5520.75,Delivered,2025-01-06
+75,11,Aarav Sharma,Male,24,Delhi,Delhi,18,Perfume,Beauty,3,1599.0,20.0,3837.6,Cancelled,2025-12-10
+87,12,Priya Verma,Female,28,Mumbai,Maharashtra,6,Running Shoes,Footwear,5,2999.0,5.0,14245.25,Cancelled,2025-12-18
+8,13,Rohan Gupta,Male,31,Gurugram,Haryana,3,Laptop,Electronics,2,55000.0,10.0,99000.0,Pending,2025-05-12
+30,13,Rohan Gupta,Male,31,Gurugram,Haryana,12,Formal Shirt,Clothing,3,999.0,10.0,2697.3,Pending,2025-07-09
+57,13,Rohan Gupta,Male,31,Gurugram,Haryana,14,Electric Kettle,Home & Kitchen,1,1799.0,20.0,1439.2,Delivered,2025-06-21
+13,14,Ananya Singh,Female,22,Noida,Uttar Pradesh,15,Non-Stick Cookware Set,Home & Kitchen,4,2999.0,15.0,10196.6,Delivered,2025-02-01
+31,14,Ananya Singh,Female,22,Noida,Uttar Pradesh,17,Sunscreen,Beauty,2,699.0,0.0,1398.0,Delivered,2025-07-27
+38,14,Ananya Singh,Female,22,Noida,Uttar Pradesh,15,Non-Stick Cookware Set,Home & Kitchen,1,2999.0,20.0,2399.2,Pending,2025-09-25
+18,15,Karan Mehta,Male,35,Jaipur,Rajasthan,14,Electric Kettle,Home & Kitchen,4,1799.0,15.0,6116.6,Delivered,2025-02-15
+80,15,Karan Mehta,Male,35,Jaipur,Rajasthan,18,Perfume,Beauty,5,1599.0,0.0,7995.0,Delivered,2025-07-28
+69,16,Neha Kapoor,Female,27,Chandigarh,Chandigarh,17,Sunscreen,Beauty,5,699.0,0.0,3495.0,Returned,2025-01-27
+55,17,Aditya Jain,Male,29,Bengaluru,Karnataka,17,Sunscreen,Beauty,2,699.0,10.0,1258.2,Returned,2025-04-23
+93,17,Aditya Jain,Male,29,Bengaluru,Karnataka,15,Non-Stick Cookware Set,Home & Kitchen,4,2999.0,5.0,11396.2,Delivered,2025-06-17
+23,18,Sneha Patel,Female,26,Ahmedabad,Gujarat,9,Cotton T-Shirt,Clothing,4,599.0,20.0,1916.8,Delivered,2025-04-21
+36,18,Sneha Patel,Female,26,Ahmedabad,Gujarat,18,Perfume,Beauty,3,1599.0,10.0,4317.3,Pending,2025-11-16
+45,18,Sneha Patel,Female,26,Ahmedabad,Gujarat,4,Smartphone,Electronics,3,28000.0,15.0,71400.0,Pending,2025-10-06
+74,18,Sneha Patel,Female,26,Ahmedabad,Gujarat,4,Smartphone,Electronics,3,28000.0,10.0,75600.0,Pending,2025-05-06
+10,19,Vivek Malhotra,Male,33,Pune,Maharashtra,11,Hoodie,Clothing,4,1299.0,10.0,4676.4,Returned,2025-04-20
+73,19,Vivek Malhotra,Male,33,Pune,Maharashtra,11,Hoodie,Clothing,5,1299.0,5.0,6170.25,Returned,2025-03-01
+92,19,Vivek Malhotra,Male,33,Pune,Maharashtra,10,Denim Jeans,Clothing,5,1499.0,15.0,6370.75,Delivered,2025-11-23
+94,19,Vivek Malhotra,Male,33,Pune,Maharashtra,7,Casual Sneakers,Footwear,5,2499.0,15.0,10620.75,Delivered,2025-04-03
+9,20,Isha Agarwal,Female,23,Kolkata,West Bengal,20,Backpack,Accessories,2,1299.0,20.0,2078.4,Delivered,2025-04-11
+16,20,Isha Agarwal,Female,23,Kolkata,West Bengal,10,Denim Jeans,Clothing,4,1499.0,5.0,5696.2,Pending,2025-01-09
+32,20,Isha Agarwal,Female,23,Kolkata,West Bengal,1,Wireless Mouse,Electronics,2,899.0,20.0,1438.4,Delivered,2025-07-30
+42,20,Isha Agarwal,Female,23,Kolkata,West Bengal,13,Coffee Maker,Home & Kitchen,3,3499.0,5.0,9972.15,Returned,2025-08-21
+70,20,Isha Agarwal,Female,23,Kolkata,West Bengal,12,Formal Shirt,Clothing,1,999.0,0.0,999.0,Cancelled,2025-03-31
+83,20,Isha Agarwal,Female,23,Kolkata,West Bengal,10,Denim Jeans,Clothing,1,1499.0,20.0,1199.2,Pending,2025-06-30
+29,21,Rahul Saini,Male,30,Sonipat,Haryana,7,Casual Sneakers,Footwear,3,2499.0,20.0,5997.6,Delivered,2025-05-30
+56,21,Rahul Saini,Male,30,Sonipat,Haryana,19,Smart Watch,Accessories,5,3999.0,0.0,19995.0,Delivered,2025-03-18
+88,21,Rahul Saini,Male,30,Sonipat,Haryana,6,Running Shoes,Footwear,2,2999.0,20.0,4798.4,Cancelled,2025-03-13
+98,21,Rahul Saini,Male,30,Sonipat,Haryana,19,Smart Watch,Accessories,4,3999.0,0.0,15996.0,Pending,2025-04-29
+2,22,Meera Joshi,Female,32,Indore,Madhya Pradesh,17,Sunscreen,Beauty,3,699.0,15.0,1782.45,Delivered,2025-07-18
+63,22,Meera Joshi,Female,32,Indore,Madhya Pradesh,4,Smartphone,Electronics,4,28000.0,5.0,106400.0,Delivered,2025-12-10
+100,22,Meera Joshi,Female,32,Indore,Madhya Pradesh,6,Running Shoes,Footwear,1,2999.0,15.0,2549.15,Returned,2025-01-25
+24,23,Arjun Bhatia,Male,25,Chennai,Tamil Nadu,9,Cotton T-Shirt,Clothing,1,599.0,10.0,539.1,Pending,2025-05-23
+28,23,Arjun Bhatia,Male,25,Chennai,Tamil Nadu,4,Smartphone,Electronics,4,28000.0,20.0,89600.0,Delivered,2025-11-07
+66,23,Arjun Bhatia,Male,25,Chennai,Tamil Nadu,1,Wireless Mouse,Electronics,2,899.0,5.0,1708.1,Delivered,2025-06-08
+89,23,Arjun Bhatia,Male,25,Chennai,Tamil Nadu,12,Formal Shirt,Clothing,3,999.0,5.0,2847.15,Delivered,2025-05-17
+96,23,Arjun Bhatia,Male,25,Chennai,Tamil Nadu,10,Denim Jeans,Clothing,1,1499.0,5.0,1424.05,Delivered,2025-10-06
+97,24,Pooja Nair,Female,29,Kochi,Kerala,6,Running Shoes,Footwear,4,2999.0,20.0,9596.8,Cancelled,2025-10-10
+50,25,Manish Yadav,Male,36,Lucknow,Uttar Pradesh,19,Smart Watch,Accessories,1,3999.0,15.0,3399.15,Returned,2025-08-31
+86,25,Manish Yadav,Male,36,Lucknow,Uttar Pradesh,9,Cotton T-Shirt,Clothing,1,599.0,15.0,509.15,Pending,2025-01-10
+99,25,Manish Yadav,Male,36,Lucknow,Uttar Pradesh,7,Casual Sneakers,Footwear,5,2499.0,5.0,11870.25,Pending,2025-10-22
+11,26,Simran Kaur,Female,24,Amritsar,Punjab,16,Face Wash,Beauty,4,399.0,10.0,1436.4,Pending,2025-01-16
+14,26,Simran Kaur,Female,24,Amritsar,Punjab,19,Smart Watch,Accessories,1,3999.0,10.0,3599.1,Returned,2025-12-09
+15,26,Simran Kaur,Female,24,Amritsar,Punjab,14,Electric Kettle,Home & Kitchen,5,1799.0,20.0,7196.0,Pending,2025-02-26
+33,26,Simran Kaur,Female,24,Amritsar,Punjab,12,Formal Shirt,Clothing,3,999.0,15.0,2547.45,Delivered,2025-02-10
+35,26,Simran Kaur,Female,24,Amritsar,Punjab,3,Laptop,Electronics,3,55000.0,15.0,140250.0,Cancelled,2025-02-08
+61,26,Simran Kaur,Female,24,Amritsar,Punjab,15,Non-Stick Cookware Set,Home & Kitchen,5,2999.0,20.0,11996.0,Delivered,2025-03-29
+82,26,Simran Kaur,Female,24,Amritsar,Punjab,4,Smartphone,Electronics,5,28000.0,10.0,126000.0,Delivered,2025-03-31
+48,27,Nikhil Roy,Male,27,Kolkata,West Bengal,6,Running Shoes,Footwear,3,2999.0,15.0,7647.45,Pending,2025-12-22
+72,27,Nikhil Roy,Male,27,Kolkata,West Bengal,19,Smart Watch,Accessories,4,3999.0,0.0,15996.0,Delivered,2025-09-21
+90,27,Nikhil Roy,Male,27,Kolkata,West Bengal,11,Hoodie,Clothing,4,1299.0,0.0,5196.0,Delivered,2025-06-14
+22,28,Riya Khanna,Female,21,Faridabad,Haryana,3,Laptop,Electronics,5,55000.0,15.0,233750.0,Delivered,2025-09-19
+51,28,Riya Khanna,Female,21,Faridabad,Haryana,6,Running Shoes,Footwear,1,2999.0,0.0,2999.0,Returned,2025-02-11
+79,28,Riya Khanna,Female,21,Faridabad,Haryana,17,Sunscreen,Beauty,5,699.0,20.0,2796.0,Cancelled,2025-09-22
+59,29,Sahil Arora,Male,34,Hyderabad,Telangana,15,Non-Stick Cookware Set,Home & Kitchen,2,2999.0,5.0,5698.1,Delivered,2025-09-08
+4,30,Tanya Das,Female,26,Bhubaneswar,Odisha,4,Smartphone,Electronics,2,28000.0,0.0,56000.0,Returned,2025-09-09
+19,30,Tanya Das,Female,26,Bhubaneswar,Odisha,9,Cotton T-Shirt,Clothing,5,599.0,5.0,2845.25,Delivered,2025-05-05
+47,30,Tanya Das,Female,26,Bhubaneswar,Odisha,6,Running Shoes,Footwear,1,2999.0,15.0,2549.15,Delivered,2025-12-20
+58,30,Tanya Das,Female,26,Bhubaneswar,Odisha,1,Wireless Mouse,Electronics,5,899.0,15.0,3820.75,Delivered,2025-07-01
+62,30,Tanya Das,Female,26,Bhubaneswar,Odisha,3,Laptop,Electronics,1,55000.0,0.0,55000.0,Delivered,2025-02-02
+68,30,Tanya Das,Female,26,Bhubaneswar,Odisha,20,Backpack,Accessories,4,1299.0,0.0,5196.0,Returned,2025-08-20
+84,30,Tanya Das,Female,26,Bhubaneswar,Odisha,15,Non-Stick Cookware Set,Home & Kitchen,5,2999.0,5.0,14245.25,Delivered,2025-08-09
+95,30,Tanya Das,Female,26,Bhubaneswar,Odisha,8,Formal Shoes,Footwear,4,3499.0,0.0,13996.0,Pending,2025-03-28
