@@ -171,7 +171,7 @@ pip install -r requirements.txt
 ### 2. Run the Streamlit App
 
 ```bash
-streamlit run Sales_data_app.py
+https://sales-dasboard-bysakshi.streamlit.app/
 ```
 
 The dashboard will open automatically in your browser.
